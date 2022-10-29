@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  border-spacing: 0px;
+}
+#kullanici_giris_body {
+  background-color: #abc5f1;
+  font-family: "Verdana", Lucida Grande, Tahoma, Arial, sans-serif;
+  font-size: 13px;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0%;
+}
+.container{
+  width: 1000px;
+}
+.main-header{
+  width: 100%;
+  background-color: #2184AC;
+  padding: 4px 10px;
+  position: fixed;
+  z-index: 1 ;
+ 
+}
+.main-header_logo{
+   color: #fff;
+   font-size: 21px;
+   text-decoration: none;
+   font-weight: bold;
+   padding: 0%;
+}
+.main-nav{
+  text-align: right;
+  width: calc(100% - 120px);
+  display: inline-block;
+}
+.main-nav_items{
+  list-style: none;
+}
+.main-nav_item{
+   display: inline-block;
+   margin: 0px 50px;
+   text-decoration: none;
+}
+.main-nav_item a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+
+}
+
+.main-nav_item a:hover{
+  color: rgb(179, 255, 0);
+}
+.main-nav_item a:active{
+  color: aqua;
+}
+#kullanici_giris_kapsayici {
+  margin: 15% auto;
+  width: 297px;
+  height: 235px;
+  padding: 37px 25px 0 25px;
+  /* background: url(/JS/ödev/yeni.jpg); */
+  
+}
+#kullanici_giris_kapsayici input[type="text"],
+#kullanici_giris_kapsayici input[type="password"] {
+  width: 150px;
+  padding: 0 5px 0 5px;
+  height: 46px;
+  border: 1px solid #e1e1e1;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  color: #9e9696;
+  float: left;
+}
+#kullanici_giris_kapsayici p {
+  width: 90px;
+  padding: 7px 0 0;
+  float: left;
+  font-size: 13px;
+  color: #b7ee1e;
+}
+#kullanici_giris_kapsayici input[type="submit"] {
+  width: 295px;
+  height: 46px;
+  border: 1px solid #a2c359;
+  margin-bottom: 12px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #525b3d;
+  background-color: #b3d175;
+  cursor: pointer;
+}
+#kullanici_giris_kapsayici span {
+  color: #990000;
+}
+#kullanici_giris_kapsayici a {
+  color: #0000cc;
+  text-decoration: underline;
+}
