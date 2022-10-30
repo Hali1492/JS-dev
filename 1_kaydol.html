@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kaydol</title>
     <link rel="stylesheet" href="./css/kaydol.css" />
+    <script type="text/javascript" src="./api/signUp.js"></script>
 </head>
 <body onload="alert('Welcome to My Site! Please Sign Up :) ')" id="kullanici_giris_body">
     <header class="main-header">
@@ -22,26 +23,26 @@
                 </ul>
             </nav>
         </div>
-    <form method="post" action="https://www.google.com/">
+    <!-- <form method="post" action="https://www.google.com/"> -->
         <div id="kullanici_giris_kapsayici">
             <p>NAME :</p>
-            <input placeholder="Your name" type="text" value="" id="">
+            <input placeholder="Your name" type="text" value="" id="name">
                
             <p>SURNAME :</p>
-            <input placeholder="Your Surname" type="text" value="" id="">
+            <input placeholder="Your Surname" type="text" value="" id="surname">
                
             <p>AGE :</p>
-            <input placeholder="20" type="text" value="" id="">
+            <input placeholder="20" type="text" value="" id="age">
                
             <p>PASSWORD :</p>
-            <input placeholder="*******" type="password" value="">
+            <input placeholder="*******" type="password" value="" id="password">
                 
             <p>EMAIL :</p>
-            <input placeholder="for@example.com" type="text" value="">
-            <input type="submit" value="SIGN UP" />
-            
+            <input placeholder="for@example.com" type="text" value="" id="email" >
+            <!-- <input type="submit" value="SIGN UP" id="name" /> -->
+            <button style="width: 300px; height: 30px;" onclick="signUp()">SIGN UP</button>
         </div>
-    </form>
+    <!-- </form> -->
     <!-- <script>
         function sendAlertMessage() {
             console.log('clicked')
